@@ -4,6 +4,7 @@
         background-color: transparent;
     }
     .Container .Conteudo {
+        padding: 8px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -30,22 +31,26 @@
 @media (max-width: 500px) {
     }
     .Container {
+        padding: 8px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
     }
     .Conteudo {
+        padding: 8px;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
     .Preco {
+        padding: 8px;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
     .Detalhes {
+        padding: 8px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -53,8 +58,8 @@
 
 @media (max-width: 376px) {
     .Container {
+        padding: 8px;
         display: flex;
-        flex-direction: column;
         flex-direction: column;
     }
 }

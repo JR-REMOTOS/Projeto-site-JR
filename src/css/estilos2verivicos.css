@@ -6,6 +6,7 @@ body{
     font-family: "Poppins";
 }
 .Container{
+    padding: 8px;
     display: flex;
     flex-direction:inherit;
     width: 900px;
@@ -18,12 +19,13 @@ body{
     width: auto;
     background: rgb(160, 163, 139);
     border-radius: 20px;
-    margin: 5px;
+    margin: 10px;
     float: left;
-    margin-top: 8%;
+    margin-top: 10;
     text-align: center;
 }
 .Preco{
+    padding: 8px;
     display: flex;
     flex-direction: column;
     width: 180px;
@@ -36,6 +38,7 @@ body{
     margin-top: -30px;
 }
 .Conteudo h1{
+    padding: 10px;
     display: flex;
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -43,6 +46,7 @@ body{
     text-transform: uppercase;
 }
 .Preco h2{
+    padding: 8px;
     display: flex;
     line-height: 0;
     text-align: center;
@@ -58,6 +62,7 @@ body{
     line-height: 0;
 }
 .Conteudo a{
+    padding: 8px;
     display: flex;
     text-decoration: none;
     border-radius: 5px;
@@ -69,6 +74,7 @@ body{
     text-transform: uppercase;
 }
 .Conteudo a:hover{
+    padding: 8px;
     display: flex;
     text-decoration: none;
     border-radius: 5px;
